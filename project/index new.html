@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <!-- CSS Imports -->
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/leaflet.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- Sidebar -->
+    <div class="sidebar">
+
+      <button id='next1' class='next'>
+        <p>NEXT</p>
+      </button>
+
+      <div id="intro">
+        <h1>Housing Counseling Agencies Map</h1>
+        <p class="main">The map shows the housing couseling services location
+          in Philadelphia in 2015. </p>
+      </div>
+
+      <div id="results" style="display: none;">
+        <p>The information is provided by the Office of Housing and Community
+          Department. OHCD has long supported neighborhood-based and citywide
+          organizations offering housing counseling services to low- and
+          moderate-income people. OHCD-funded services provided by these
+          agencies include mortgage counseling, default and delinquency
+          counseling, tenant support and housing consumer education.</p>
+      </div>
+    </div>
+
+    <div id="map1" class="map">
+      <div class="legend">
+        <div class='box' id='zip1'>
+          <p class='caption'> 19100 to 19110 </p>
+        </div>
+        <div class='box' id='zip2'>
+          <p class='caption'> 19111 to 19120 </p>
+        </div>
+        <div class='box' id='zip3'>
+          <p class='caption'> 19121 to 19130 </p>
+        </div>
+        <div class='box' id='zip4'>
+          <p class='caption'> 19131 to 19140 </p4>
+        </div>
+        <div class='box' id='zip5'>
+          <p class='caption'> 19141 to 19150 </p5>
+        </div>
+      </div>
+    </div>
+
+
+
+
+
+
+      <div class="sidebar">
+        <button id='prev2' class='prev'>
+          <p>PREV</p>
+        </button>
+
+        <button id='next2' class='next'>
+          <p>NEXT</p>
+        </button>
+
+        <div id="results1" style="display: none;">
+          <h1 class="zipcode">Search By Zip Code</h1>
+          <p class="main">Your zip code is <span class="zipcode">
+          ZIP</span>.</p>
+          <p>The location of housing counseling angencies can be searched by the
+            zip code you entered. It's separated by five categories.</p>
+        </div>
+      </div>
+
+      <div id="map2" class="map">
+        <div class="legend">
+          <div class='box' id='prevent1'>
+            <p class='caption'> YES </p>
+          </div>
+          <div class='box' id='prevent2'>
+            <p class='caption'> NO </p>
+          </div>
+        </div>
+      </div>
+
+
+
+
+      <div class="sidebar">
+        <button id='prev3' class='prev'>
+          <p>PREV</p>
+        </button>
+
+        <button id='next3' class='next'>
+          <p>NEXT</p>
+        </button>
+
+        <div id="results2" style="display: none;">
+          <h1 class="prevent">Search By Prevention</h1>
+          <p class="main">You're looking for homeless prevention services<span class="prevent">
+          Y/N</span>.</p>
+          <p>OHCD provides homeless prevention services as well, there're some housing counseling
+            agencies provide the services in Philadelphia.</p>
+        </div>
+      </div>
+
+      <div id="map3" class="map">
+        <div class="legend">
+          <div class='box' id='sen1'>
+            <p class='caption'> YES </p>
+          </div>
+          <div class='box' id='sen2'>
+            <p class='caption'> NO </p>
+          </div>
+        </div>
+      </div>
+
+
+
+
+
+      <div class="sidebar">
+        <button id='prev4' class='prev'>
+          <p>PREV</p>
+        </button>
+
+        <button id='next4' class='next'>
+          <p>NEXT</p>
+        </button>
+
+        <div id="results3" style="display: none;">
+          <h1 class="senior">Search By Seniors</h1>
+          <p class="main">You're looking for seniors services<span class="senior">
+          Y/N</span>.</p>
+          <p>OHCD services offered to seniors or their family members to assist them in locating
+            retirement homes and assisted living, in Philadelphia.</p>
+        </div>
+      </div>
+
+      <div id="map4" class="map">
+        <div class="legend">
+          <div class='box' id='sen1'>
+            <p class='caption'> YES </p>
+          </div>
+          <div class='box' id='sen2'>
+            <p class='caption'> NO </p>
+          </div>
+        </div>
+      </div>
+
+
+
+
+      <div class="sidebar">
+        <button id='prev5' class='prev'>
+          <p>PREV</p>
+        </button>
+
+        <div id="results4" style="display: none;">
+          <h1 class="pre-pur">Search By Pre-Purchase</h1>
+          <p class="main">You're looking for pre-purchase services<span class="pre-pur">
+          Y/N</span>.</p>
+          <p>OHCD provides pre-purchase housing counseling services as well, there're some housing
+            counseling agencies provide the serives in Philadelphia.</p>
+        </div>
+      </div>
+
+      <div id="map5" class="map">
+        <div class="legend">
+          <div class='box' id='pre-pur1'>
+            <p class='caption'> YES </p>
+          </div>
+          <div class='box' id='pre-pur2'>
+            <p class='caption'> NO </p>
+          </div>
+        </div>
+    </div>
+
+  </div>
+  <!-- Javascript Imports -->
+  <script src="js/jquery-2.2.0.js"></script>
+  <script src="js/underscore.js"></script>
+  <script src="js/leaflet.js"></script>
+  <script src="js/main.js"></script>
+  </body>
+  </html>
