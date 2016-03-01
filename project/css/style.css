@@ -27,7 +27,7 @@ p.main {
     font-size: 16px;
 }
 
-.legend {
+#legend1 {
   position: absolute;
   background-color: #fff;
   z-index: 2000;
@@ -35,13 +35,13 @@ p.main {
   margin-top: 30px;
 }
 
-.box {
+.box1 {
   position: relative;
   width:20px;
   height:20px;
 }
 
-.caption {
+.zip {
   position: absolute;
   margin-left: 30px;
   margin-top: 0px;
@@ -63,37 +63,59 @@ p.main {
   background-color: #5d4c52;
 }
 
-#prevent1 {
-  background-color: red;
-}
-#prevent2 {
-  background-color: green;
-}
-
-#sen1 {
-  background-color: red;
-}
-#sen2 {
-  background-color: green;
-}
-
-#pre-pur1 {
-  background-color: red;
-}
-#pre-pur2 {
-  background-color: green;
-}
-
-.next {
+#button_next {
   position: fixed;
-  margin-top: 400px;
+  margin-top: 700px;
   margin-left: 300px;
 
 }
 
-.prev {
+#button_previous {
   position: fixed;
-  margin-top: 400px;
+  margin-top: 700px;
   margin-left: 0px;
+
+}
+
+
+#legend2 {
+  position: absolute;
+  background-color: #fff;
+  z-index: 2000;
+  margin-left: 30px;
+  margin-top: 30px;
+}
+
+.box2 {
+  position: relative;
+  width:20px;
+  height:20px;
+}
+
+.yn {
+  position: absolute;
+  margin-left: 30px;
+  margin-top: 0px;
+}
+
+#y {
+  background-color: green;
+}
+
+#n {
+  background-color: red;
+}
+
+#image2 {
+  position: fixed;
+  margin-top: 200px;
+  margin-bottom: 400px;
+  }
+
+#image3 {
+  position: fixed;
+  margin-top: 100px;
+  margin-bottom: 500px;
+  }
 
 }
