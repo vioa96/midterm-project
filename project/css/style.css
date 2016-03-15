@@ -29,10 +29,12 @@ p.main {
 
 #legend1 {
   position: absolute;
-  background-color: #fff;
+  background-color: lightblue;
   z-index: 2000;
-  margin-left: 30px;
+  margin-left: 50px;
   margin-top: 30px;
+  width: 130px;
+  padding: 10px;
 }
 
 .box1 {
@@ -64,26 +66,28 @@ p.main {
 }
 
 #button_next {
-  position: fixed;
-  margin-top: 700px;
+  position: absolute;
+  margin-bottom: 10px;
   margin-left: 300px;
-
+  height:30px
 }
 
 #button_previous {
-  position: fixed;
-  margin-top: 700px;
+  position: absolute;
+  margin-bottom: 10px;
   margin-left: 0px;
-
+  height:30px
 }
 
 
 #legend2 {
   position: absolute;
-  background-color: #fff;
+  background-color: lightblue;
   z-index: 2000;
-  margin-left: 30px;
+  margin-left: 50px;
   margin-top: 30px;
+  width: 130px;
+  padding: 10px;
 }
 
 .box2 {
